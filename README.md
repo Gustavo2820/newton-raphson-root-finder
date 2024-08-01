@@ -21,9 +21,7 @@ The **Newton-Raphson method** is a root-finding algorithm that uses iterative ap
 1. **Initial Guess**: Start with an initial guess for the root of the function, denoted as \(x_0\).
 2. **Iterative Process**: Use the formula:
 
-   \[
-   x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-   \]
+   x_{n+1} = x_n - f(x_n) / f'(x_n)
 
    where \(f(x)\) is the function whose root we want to find, and \(f'(x)\) is the derivative of the function.
 3. **Convergence**: Repeat the process until the difference between successive approximations \(x_{n+1}\) and \(x_n\) is smaller than a predefined tolerance level. This indicates that the approximation is close enough to the actual root.
